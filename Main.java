@@ -58,7 +58,7 @@ public class Main {
 			// Con el metodo writeObject() escribo sobre el fichero
 			oos.writeObject(contactos.get(i));
 		}
-		// Cierro el buffer
+		// Cierro la conexión
 		oos.close();
 		
 		// Creo un objeto ObjectInputStream para leer los datos del archivo 'agenda'
